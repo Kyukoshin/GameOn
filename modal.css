@@ -226,7 +226,7 @@ label {
   font-size: 17px;
   font-weight: normal;
   display: inline-block;
-  margin-bottom: 11px;
+  margin-bottom: 5px;
 }
 input {
   padding: 8px;
@@ -447,8 +447,13 @@ input[data-error]::after {
 /* custom select end */
 .text-label {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 15px;
 }
+
+.formData{
+  margin-bottom: .5em;
+}
+
 .hero-section {
   border-radius: 10px;
   display: grid;
