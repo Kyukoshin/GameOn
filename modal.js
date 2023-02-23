@@ -146,7 +146,6 @@ function validLocation(){
   }
   if(checkOk){
     setValidCheck(cities);
-
     return true;
   }else{
     setInvalidCheck(cities, "Veuillez indiquer à quel tournoi vous souhaitez participer.");
